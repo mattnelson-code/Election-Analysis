@@ -45,4 +45,4 @@
 
 1. Voter participation for each county. This would be implemented by (Number of Votes in the County) / (Number of Residents Able to Vote in the County). This information would show counties with high and low voter participation.
 
-2. Political party affiliation for each candidate and voter. Another column in the data could show each candidates's political party affiliation. This data would be extracted in the following manner: candidate_party = row[3]. In addition, voters who are affiliated with a political party will be shown in another column. This data would be extracted similarly: voter_party = row[4]. This data will show how often voters voted in line with their political party. 
+2. Political party affiliation for each candidate and voter. Another column in the data could show each candidates's political party affiliation. This data would be extracted in the following manner: candidate_party = row[3]. In addition, voters who are affiliated with a political party will be shown in another column. This data would be extracted similarly: voter_party = row[4]. This data will help show how often voters voted in line with their political party. 
