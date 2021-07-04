@@ -14,15 +14,15 @@
 
 ### Image
 
-* See Election Results: ![election_analysis.txt](Analysis/election_analysis.txt)
+* See Election Results: ![election_analysis.png](Analysis/election_analysis.png)
 
 ### Votes
 
 * Total votes: 369,711
 * Candidate votes
-    * Charles Casper Stockham: 23.0% (85,213)
-    * Diana DeGette: 73.8% (272,892)
-    * Raymon Anthony Doane: 3.1% (11,606)
+    - Charles Casper Stockham: 23.0% (85,213)
+    - Diana DeGette: 73.8% (272,892)
+    - Raymon Anthony Doane: 3.1% (11,606)
 
 ### County Data
 
@@ -41,8 +41,8 @@
 
 * While the PyPoll code successfully reports the winner of the election, along with county data, further updates to the code can deliver more election data for future elections. 
 
-* Two potential modifications for future elections that would yield useful insight to the election analysis
+* Two potential modifications for future elections that would yield useful insight to the election analysis: 
 
-    1. Voter participation for each county. This would be implemented by (Number of Votes in the County) / (Number of Residents Able to Vote in the County). This information would show counties with high and low voter participation.
+1. Voter participation for each county. This would be implemented by (Number of Votes in the County) / (Number of Residents Able to Vote in the County). This information would show counties with high and low voter participation.
 
-    2. Political party affiliation for each candidate and voter. Another column in the data could show each candidates's political party affiliation. This data would be extracted in the following manner: candidate_party = row[3]. In addition, voters who are affiliated with a political party will be shown in another column. This data would be extracted similarly: voter_party = row[4]. This data will show how often voters voted in line with their political party. 
+2. Political party affiliation for each candidate and voter. Another column in the data could show each candidates's political party affiliation. This data would be extracted in the following manner: candidate_party = row[3]. In addition, voters who are affiliated with a political party will be shown in another column. This data would be extracted similarly: voter_party = row[4]. This data will show how often voters voted in line with their political party. 
